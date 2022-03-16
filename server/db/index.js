@@ -1,5 +1,9 @@
 var mysql = require('mysql2');
+var port = 3306;
+var ip = 127.0.0.1;
 
+const server = (ip + ':' + port)
+server.listen(server);
 // Create a database connection and export it from this file.
 // Confirm that the credentials supplied for the connection are correct.
 // On Campus at pairing stations you'll use

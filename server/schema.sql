@@ -6,9 +6,10 @@ CREATE TABLE messages (
   /* Describe your table here.*/
     ID int NOT NULL,
     userName varchar(255) NOT NULL,
-    messageText varchar(255),
+    searchText varchar(255),
     gitHandle varchar(255),
-    roomName varChar(255),
+    roomname varChar(255),
+    chatMessage varChar(255),
     PRIMARY KEY (ID)
 );
 
